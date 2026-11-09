@@ -6,7 +6,6 @@ from pwdlib.hashers.argon2 import Argon2Hasher
 
 from app.core.config import settings
 
-# Initialize password hasher using Argon2id
 password_hash = PasswordHash((Argon2Hasher(),))
 
 
